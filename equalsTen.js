@@ -10,8 +10,11 @@
 
 function equalsTen(num) {
     // your code here
-    return num = 10 ? true : false;
+    let at = num === 10 ? true : false ;
+    console.log(at);
+    return at;
   }
   
   var output = equalsTen(9);
+  var output = equalsTen(11);
   console.log(output); // --> false
