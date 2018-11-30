@@ -17,7 +17,7 @@
 
 function isPersonOldEnoughToDrink(person) {
     // your code here
-   let  answer = person.age <
+   let  answer = person.age >
    20 ?
    true:
    false;
